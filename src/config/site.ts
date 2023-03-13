@@ -1,7 +1,7 @@
 import { SiteConfig, MarketingConfig } from '@/types'
 
 export const siteConfig: SiteConfig = {
-  name: 'Npm Stack',
+  name: 'NPMStack',
   description: 'An open source application built using Next.js, Tailwind CSS, and TypeScript.',
   url: 'https://npmstack.com',
   ogImage: '',

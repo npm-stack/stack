@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const fontFamily = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -13,6 +14,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', ...fontFamily.fontFamily.sans],
+      },
       animation: {
         fade: 'fade 1s ease-out',
         'fade-slow': 'fadeSlow 1.5s ease-out',
