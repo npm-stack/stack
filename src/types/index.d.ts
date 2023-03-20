@@ -20,3 +20,10 @@ export type SiteConfig = {
 export type MarketingConfig = {
   mainNav: MainNavItem[]
 }
+
+export interface Feature {
+  title: string
+  description: string
+  href: string
+  src: string
+}

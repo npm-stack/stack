@@ -4,8 +4,8 @@ import { Button } from '@/lib/components/ui/button'
 
 export const HomeSection = () => {
   return (
-    <div>
-      <div className="mx-auto flex flex-col items-start gap-4 px-6 lg:w-[52rem] lg:px-0">
+    <section aria-labelledby="Hero-Banner">
+      <div className="mx-auto flex flex-col items-start gap-4 px-6 pb-8 md:pb-12 lg:w-[52rem] lg:px-0 lg:pb-24">
         <Image src="/hero.svg" alt="Hero" width={350} height={100} className="rounded-lg" />
         <h1 className="-mt-12 text-4xl font-bold leading-[1.1] tracking-tight md:text-6xl lg:-mt-16">
           Tell your visitors why your SaaS is awesome
@@ -19,6 +19,6 @@ export const HomeSection = () => {
           <Button variant={'outline'}>Github</Button>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
